@@ -37,7 +37,7 @@ Below is the expected format of the input file:
 # Usage
 ```
 usage: java -jar boda-nokiacmdataparser.jar
-Parses Nokia RAML2.0 configuration management XML data files to csv.
+Parses Nokia RAML20 configuration management XML data files to csv.
 
  -c,--parameter-config <PARAMETER_CONFIG>   parameter configuration file
  -h,--help                                  show help
@@ -48,7 +48,7 @@ Parses Nokia RAML2.0 configuration management XML data files to csv.
  -v,--version                               display version
 
 Examples:
-java -jar boda-nokiacmdataparser.jar -i bulkcm_dump.xml -o out_folder
+java -jar boda-nokiacmdataparser.jar -i raml20_dump.xml -o out_folder
 java -jar boda-nokiacmdataparser.jar -i input_folder -o out_folder
 ```
 
